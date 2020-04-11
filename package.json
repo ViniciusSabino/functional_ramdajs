@@ -1,0 +1,14 @@
+{
+  "name": "functional_ramdajs",
+  "version": "1.0.0",
+  "description": "Functional Programming Patterns With RamdaJS! ",
+  "main": "index.js",
+  "author": "Vinícius Rocha <vnc.chelsea@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "higher-order": "node ./higher-order-functions/index.js"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
