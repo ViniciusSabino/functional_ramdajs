@@ -6,7 +6,8 @@
   "author": "Vinícius Rocha <vnc.chelsea@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "higher-order": "node ./higher-order-functions/index.js"
+    "higher-order": "node ./higher-order-functions/index.js",
+    "composition": "node ./function-composition/index.js"
   },
   "dependencies": {
     "ramda": "^0.27.0"
