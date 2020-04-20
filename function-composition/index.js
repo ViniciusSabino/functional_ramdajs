@@ -1,4 +1,5 @@
-const { upperAndReverseFirstName, upperAndReverseFirstNames } = require('./common-example')
+// const { upperAndReverseFirstName, upperAndReverseFirstNames } = require('./common-example')
+const { upperAndReverseFirstName, upperAndReverseFirstNames } = require('./functional-example')
 
 const bobo = {
   firstName: 'Bobo',

@@ -1,0 +1,6 @@
+As etapas individuais 
+
+1. Obter firstName
+2. Maiúsculas
+3. Inverter
+
