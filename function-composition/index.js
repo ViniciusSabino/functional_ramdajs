@@ -1,5 +1,9 @@
 // const { upperAndReverseFirstName, upperAndReverseFirstNames } = require('./common-example')
-const { upperAndReverseFirstName, upperAndReverseFirstNames } = require('./functional-example')
+const { 
+  upperAndReverseFirstName, 
+  upperAndReverseFirstNames, 
+  upperAndReverseFirstNameR, 
+  upperAndReverseFirstNamesR } = require('./functional-example')
 
 const bobo = {
   firstName: 'Bobo',
@@ -23,7 +27,11 @@ const users = [
 
 const result = upperAndReverseFirstName(bobo);
 
-const results = upperAndReverseFirstNames(users)
+const results = upperAndReverseFirstNames(users);
 
-console.log({ result, results });
+const resultR = upperAndReverseFirstNameR(bobo);
+
+const resultsR = upperAndReverseFirstNamesR(users)
+
+console.log({ result, results, resultR, resultsR });
 

@@ -59,7 +59,7 @@ console.log(getAgesFunc2(peoples)) // [24 ,5, 44]
 
 const keepYoungAdults = (peoples) => peoples.filter((p) => (p.age >= 18 && p.age <= 25));
 
-const predicate = R.propSatisfies(age => age >= 18 && age <= 25, 'age')
+const predicate = R.propSatisfies((age) => age >= 18 && age <= 25, 'age')
 const keepYoungAdultsFunc = R.filter(predicate);
 
 console.log(keepYoungAdultsFunc(peoples)) // [ { name: 'Vinícius', age: 24 } ]
